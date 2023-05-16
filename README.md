@@ -3,35 +3,62 @@
 #### 介绍
 华为matebook x 2020 的i5 10代CPU款黑苹果EFI，自用，仅适配此电脑配置
 
-#### 软件架构
-软件架构说明
+#### 电脑配置
+
+HuaWei Matebook X 2020 i5 款  
+CPU: i5 10210U Comet Lake
+GPU: Intel HD 530
+RAM: 16G(8+8)
+HHD: 512G
+Wifi & BT: Intel AX210
 
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+将 EFI 文件夹放置入引导的目录里即可
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+##### 正常可用
 
-#### 参与贡献
+1. CPU、GPU正常
+2. 硬盘正常
+3. WiFi使用驱动基本正常，偶尔会有个别WiFi点加入不了，不清楚原因
+4. BT驱动基本正常，某些蓝牙鼠标无法驱动……
+5. 系统自带触控板正常，工作在GPIO模式
+6. 系统合盖睡眠正常
+7. 系统合盖切换成外部显示器输出正常
+8. 系统可以正常升级更新
+9. iCloud等可以正常登录
+10. AppStore在插一个带网卡的扩展坞后可以正常下载
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+##### 存在些问题
 
+1. 无法使用开盖唤醒，只能使用电源键
+2. 左边TypeC端口输出Hdmi显示会不稳定，右边正常
+3. 自带2个TypeC端口正常，但是某些情况下会发生系统提示U盘供电不足的现象，未知原因
 
-#### 特技
+##### 无法使用
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+1. 自带USB摄像头（可能还有救）
+2. 自带指纹
+
+#### 截图显示
+
+![neofetch 系统信息](images/neofetch.png)
+
+![系统信息](images/SystemInfo.png)
+
+![WiFi内容](images/intelWiFi.png)
+
+![CPUInfo](images/CPUInfo.png)
+
+![触摸板GPIO模式](images/gpio.png)
+
+![显示器HiDPI](images/HiDPI.png)
+
+![SSD支持Trim](images/SSDTrim.png)
+
+![AppStore正常登录使用](images/appstore.png)
+
+![GPU正常，硬件加速正常](images/Graphic.png)
