@@ -7,8 +7,8 @@
 
 HuaWei Matebook X 2020 i5 款  
 CPU: i5 10210U Comet Lake  
-GPU: Intel HD 530  
-RAM: 16G(8+8)  
+GPU: Intel HD 630 (Intel HD Graphics CFL CRB)  
+RAM: 16G (8+8)  
 HHD: 512G  
 Wifi & BT: Intel AX210
 
