@@ -1,7 +1,9 @@
-# Huawei Matebook X 2020 Hackintosh
+# Huawei Matebook X 2020 Hackintosh For Ventura
 
 #### 介绍
-华为matebook x 2020 的i5 10代CPU款黑苹果EFI，自用，仅适配此电脑配置
+
+华为matebook x 2020 的i5 10代CPU款黑苹果EFI For Ventura  
+自用，仅适配此电脑配置
 
 #### 电脑配置
 
@@ -33,9 +35,10 @@ Wifi & BT: Intel AX210
 
 ##### 存在些问题
 
-1. 无法使用开盖唤醒，只能使用电源键
+1. 无法使用开盖唤醒，只能使用电源键（可能还有救）
 2. 左边TypeC端口输出Hdmi显示会不稳定，右边正常
 3. 自带2个TypeC端口正常，但是某些情况下会发生系统提示U盘供电不足的现象，未知原因
+4. 蓝牙某些鼠标不能用（联想小新、联想YOGA2，应该是通用问题）
 
 ##### 无法使用
 
